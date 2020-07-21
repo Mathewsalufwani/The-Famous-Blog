@@ -1,4 +1,17 @@
-{% extends 'base.html'%}
+{% extends 'base.html'%}{% import 'macros.html' as macro%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Famous Blog</title>
+    {% block styles%} {{ super() }}
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link href="../static/css/all.css" rel="stylesheet"> {% endblock %}
+
+</head>
 
 <!-- Content block -->
 {% block content %}
