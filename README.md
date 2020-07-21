@@ -15,7 +15,7 @@ As a user, you will be able to;
 
 
 ## Live link
-Visit the application on https://pitch-pitchez.herokuapp.com/ .
+Visit the application on https://thefamousblog.herokuapp.com/.
 
 ## Technologies Used
 Technologies used to develop this application:
